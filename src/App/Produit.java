@@ -1,6 +1,6 @@
 package App;
 
-public class Produit {
+public class Produit implements I_Produit {
 
 	/*
 	private integer quantiteStock
@@ -16,37 +16,46 @@ public class Produit {
 		// TODO Auto-generated constructor stub
 	}
 
-	/*
-	public bool ajouter(In qteAcheter:integer) {
-	
+	@Override
+	public boolean ajouter(int qteAchetee) {
+		// TODO Auto-generated method stub
+		return false;
 	}
-	
-	public bool enlever(In qteVendue:integer) {
-	
+
+	@Override
+	public boolean enlever(int qteVendue) {
+		// TODO Auto-generated method stub
+		return false;
 	}
-	
-	public void getPrixUnitaireHT():real {
-	
+
+	@Override
+	public String getNom() {
+		// TODO Auto-generated method stub
+		return null;
 	}
-	
-	public void getPrixUnitaireTTC():real {
-	
+
+	@Override
+	public int getQuantite() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
-	
-	public void getPrixStockTTC():real {
-	
+
+	@Override
+	public double getPrixUnitaireHT() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
-	
-	public void getNom():string {
-	
+
+	@Override
+	public double getPrixUnitaireTTC() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
-	
-	public integer getQuantite() {
-	
+
+	@Override
+	public double getPrixStockTTC() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
-	
-	public void toString():string {
-	
-	}
-	*/
+
 }
